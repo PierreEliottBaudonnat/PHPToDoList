@@ -1,0 +1,189 @@
+body
+{
+    background: url("images/fond.jpg") fixed no-repeat top;
+    background-size: 100%;
+    color: black;
+}
+#bloc_page
+{
+    width: 80%;
+    margin: 5% 10%;
+    border: 3px white solid;
+    border-radius: 30px 30px 30px 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1
+{
+    font-family: "Segoe UI Black";
+    color: white;
+    text-shadow: 3px 3px 10px #000000;
+}
+
+#php{
+    color: #fcffe3;
+    font-family: "Bodoni MT";
+    text-align: center;
+    font-size: 21px;
+}
+
+#testPhp{
+    display: inline-block;
+    margin: 3.5%;
+}
+
+h2
+{
+    font-family: "Bauhaus 93";
+    color: #92ffa1;
+    text-shadow: 2px 2px 3px #00d40a;
+    text-align: left;
+    font-size: 20px;
+}
+
+#choix{
+    margin: 3%;
+}
+
+#titre
+{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 30px;
+}
+
+#phrase
+{
+    text-align: left;
+    margin: 3%;
+    font-size: 23px;
+}
+
+#menuNu, #menuTi, #menuDe, #menuDu{
+    font-family: "Bauhaus 93";
+    color: #92ffa1;
+    text-shadow: 1px 1px 2px #00d40a;
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+#menuNu{
+    margin-right: 1%;
+}
+
+#menuTi{
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+#menuDe{
+    margin-left: 12%;
+    margin-right: 14%;
+}
+
+table, td, th
+{
+    border-collapse: collapse;
+    border: 3px inset #f4ff19;
+    margin: 3%;
+}
+
+nav li
+{
+    display: inline-block;
+}
+ul
+{
+    text-align: center;
+}
+
+#num{
+    margin-left: 5%;
+}
+
+#menu, #menu ul {
+    margin: 1%;
+    padding: 0;
+    list-style: none;
+}
+
+#menu {
+    width: 30%;
+    border: 1px solid #fbf910;
+    background-image: linear-gradient(#ffc017,#ff4800);
+    border-radius: 16px;
+}
+
+#menu:before,
+#menu:after {
+    content: "";
+    display: table;
+}
+
+#menu:after {
+    clear: both;
+}
+
+
+#menu li {
+    position: relative;
+}
+
+#menu a {
+    float: left;
+    padding: 7px 30px;
+    color: white;
+    font: bold 20px "Bauhaus 93";
+}
+
+#menu li:hover > a {
+    color: black;
+}
+
+
+#menu ul {
+    margin: 20px 0 0 0;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 110%;
+    border: 1px solid #fbf910;
+    background: linear-gradient(#ffc017,#ff4800);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    transition: all .3s ease-in-out;
+}
+
+#menu li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    margin: 0;
+}
+
+#menu ul li:last-child {
+    box-shadow: none;
+}
+
+#menu ul a {
+    padding: 10px;
+    width: 130px;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+button{
+    font-family: Jokerman;
+    font-size: 15px;
+    color: red;
+    margin: 2%;
+}
+
+#btAccueil{
+    color: blue;
+    font-family: "Segoe UI Black";
+    margin-top: 3%;
+    margin-left: 1%;
+}

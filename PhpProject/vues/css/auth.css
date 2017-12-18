@@ -1,0 +1,45 @@
+body
+{
+    background: url("images/auth.jpg") fixed no-repeat center;
+    background-size: 100%;
+    color: black;
+}
+
+#bloc_page
+{
+    width: 40%;
+    margin: 15% 30%;
+    border: 3px white solid;
+    border-radius: 30px 30px 30px 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1
+{
+    font-family: "Segoe UI Black";
+    color: #94edff;
+    text-shadow: 1px 1px 10px #ffffff;
+}
+
+form{
+    margin: 5%;
+}
+
+section{
+    margin: 2%;
+}
+
+#toutCo{
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+#log, #boxlog{
+    display: inline-block;
+    margin: 2%;
+}
+
+#mdp, #boxmdp{
+    display: inline-block;
+    margin: 2%;
+}
