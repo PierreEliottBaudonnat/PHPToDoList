@@ -9,16 +9,18 @@
 <body>
 <div align="center" id="bloc_page">
     <div align="left">
-        <button id="btAccueil" href="?action=default">Retour au menu</button>
+        <button>
+            <a id="btAccueil" href="?action=default">Retour au menu</a>
+        </button>
     </div>
-    <h1 id="titre">Bienvenue <?php echo $_POST['login']?> !</h1>
+    <h1 id="titre2">Bienvenue <?php echo $login ?> !</h1>
 
     <h1 id="phrase">Découvrez ce que vous pouvez faire :</h1>
 
     <section>
-        <button href="?action=ajoutTache">Ajouter Tâche ?</button>
-        <button>Modifier Tâche ?</button>
-        <button>Supprimer Tâche ?</button>
+        <button><a href="?action=ajoutTache">Ajouter Tâche ?</a></button>
+        <button><a href="?action=modifTache">Modifier Tâche ?</a></button>
+        <button><a href="?action=supprTache">Supprimer Tâche ?</a></button>
     </section>
 
     <h1 id="phrase">Découvrez aussi la liste de tâches publiques : <br></h1>

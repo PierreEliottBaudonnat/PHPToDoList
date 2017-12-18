@@ -43,6 +43,8 @@ class Config
             "defaultAdmin" => $vueDirectory."vueDefaultAdmin.php",
             "saisieAjoutTache" => $vueDirectory."vueSaisieAjoutTache.php",
             "saisieModifTache" => $vueDirectory."vueSaisieModifTache.php",
+            "saisieSupprTache" => $vueDirectory."vueSaisieSupprTache.php",
+            "success" => $vueDirectory."success.php",
             "afficheTache" => $vueDirectory."vueAfficheTache.php",
             "afficheListeTaches" => $vueDirectory."vueAfficheListeTache.php"
 

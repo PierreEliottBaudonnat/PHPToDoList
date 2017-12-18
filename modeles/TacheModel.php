@@ -34,21 +34,15 @@ class TacheModel extends Simplemodel
     public function getModelAjoutTache($idTache, $titreTache, $description, $duree){
         $n = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
         $n->ajouterTache($idTache, $titreTache, $description, $duree);
-        echo "La tâche $idTache a bien été ajoutée";
-        echo "<br><br>";
     }
 
     public function getModelModifTache($idTache, $titreTache, $description, $duree){
         $n = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
         $n->modifierTache($idTache, $titreTache, $description, $duree);
-        echo "La tâche $idTache a bien été modifiée";
-        echo "<br><br>";
     }
 
     public function getModelSupprTache($idTache){
         $n = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
         $n->supprimerTache($idTache);
-        echo "La tâche $idTache a bien été supprimée";
-        echo "<br><br>";
     }
 }

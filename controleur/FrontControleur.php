@@ -30,17 +30,42 @@ class FrontControleur{
 
                 case "validateAuth" :
                     $_SESSION['role']="admin";
-                    new UtlisateurControleur($action);
+                    new UtilisateurControleur($action);
+                    break;
+
+                case "validAjout" :
+                    $_SESSION['role']="admin";
+                    new UtilisateurControleur($action);
+                    break;
+
+                case "validModif" :
+                    $_SESSION['role']="admin";
+                    new UtilisateurControleur($action);
+                    break;
+
+                case "validSuppr" :
+                    $_SESSION['role']="admin";
+                    new UtilisateurControleur($action);
                     break;
 
                 case "connexion":
                     $_SESSION['role']="utilisateur";
-                    new UtlisateurControleur($action);
+                    new UtilisateurControleur($action);
                     break;
 
                 case "ajoutTache":
                     $_SESSION['role']="admin";
-                    new UtlisateurControleur($action);
+                    new UtilisateurControleur($action);
+                    break;
+
+                case "modifTache" :
+                    $_SESSION['role'] = "admin";
+                    new UtilisateurControleur($action);
+                    break;
+
+                case "supprTache" :
+                    $_SESSION['role']="admin";
+                    new UtilisateurControleur($action);
                     break;
 
                 case "validationFormulaire":

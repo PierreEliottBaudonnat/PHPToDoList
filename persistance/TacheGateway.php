@@ -20,8 +20,8 @@ class TacheGateway{
 
     public function ajouterTache($idTache, $titreTache, $description, $duree){
         $this->con->executeQuery("INSERT INTO tache VALUES(:idTache, :titreTache, :description, :duree)", array(
-            ':$idTache' => array($idTache, \PDO::PARAM_INT),
-            ':$titreTache' => array($titreTache, \PDO::PARAM_STR),
+            ':idTache' => array($idTache, \PDO::PARAM_INT),
+            ':titreTache' => array($titreTache, \PDO::PARAM_STR),
             ':description' => array($description, \PDO::PARAM_STR),
             ':duree' => array($duree, \PDO::PARAM_STR)
         ));
@@ -35,16 +35,23 @@ class TacheGateway{
 
     public function modifierTache($idTache, $titreTache, $description, $duree){
         $this->con->executeQuery("UPDATE tache SET titreTache = :titreTache, description = :description, duree = :duree WHERE idTache = :idTache", array(
-            ':$idTache' => array($idTache, \PDO::PARAM_INT),
-            ':$titreTache' => array($titreTache, \PDO::PARAM_STR),
+            ':idTache' => array($idTache, \PDO::PARAM_INT),
+            ':titreTache' => array($titreTache, \PDO::PARAM_STR),
             ':description' => array($description, \PDO::PARAM_STR),
             ':duree' => array($duree, \PDO::PARAM_STR)
         ));
     }
 
     public function afficherTache($idTache){
-        $this->con->executeQuery("SELECT * FROM tache WHERE idTache = :idTache");
-        return $this->con->getResult();
+        $this->con->executeQuery("SELECT COUNT(*) FROM tache WHERE idTache = :idTache", array(
+            ':idTache' => array($idTache, \PDO::PARAM_STR)
+        ));
+        $res= $this->con->getResult();
+        foreach ($res as $row){
+            foreach ($row as $value){
+                return $value;
+            }
+        }
     }
 
     public function afficherListeTaches(){
