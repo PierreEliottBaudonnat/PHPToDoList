@@ -35,6 +35,20 @@
         $model->getModelListeTachesPubliques();
         ?>
     </div>
+    <div id="phpPrive">
+        <?php
+        $model->getModelListeTachesPrivees();
+        ?>
+    </div>
+
+    <h1 id="phrase">Découvrez aussi VOS tâches perso, les tâches privées</h1>
+
+    <section>
+        <button><a href="?action=ajoutTachePrivee">Ajouter Tâche Privée ?</a></button>
+        <button><a href="?action=modifTachePrivee">Modifier Tâche Privée ?</a></button>
+        <button><a href="?action=supprTachePrivee">Supprimer Tâche Privée ?</a></button>
+    </section>
+
 </div>
 </body>
 </html>

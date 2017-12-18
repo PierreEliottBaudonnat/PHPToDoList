@@ -1,0 +1,84 @@
+body
+{
+    background: url("images/private.jpg") fixed no-repeat;
+    background-size: 100%;
+    color: black;
+}
+
+h1{
+    font-family: "Bauhaus 93";
+    color: white;
+    text-shadow: 3px 3px 10px #ffdfdf;
+    margin-top: 6%;
+}
+
+h2{
+    font-family: "Bookman Old Style";
+    font-size: 23px;
+    color: white;
+}
+
+form{
+    margin-top: 3%;
+    border: 3px #ffdfdf solid;
+    margin-left: 27%;
+    margin-right: 27%;
+    background-color: rgba(28, 28, 28, 0.5);
+}
+
+section{
+    margin: 5%;
+}
+
+button{
+    margin-bottom: 2%;
+    font-family: "Bookman Old Style";
+}
+
+#retour{
+    margin-top: 1.5%;
+    margin-right: 35%;
+}
+
+#id, #boxId{
+    display: inline-block;
+    margin: 2%;
+}
+
+#titre, #boxTitre{
+    display: inline-block;
+    margin: 2%;
+}
+
+#desc, #boxDesc{
+    display: inline-block;
+    margin: 2%;
+}
+
+#time, #boxTime{
+    display: inline-block;
+    margin: 2%;
+}
+
+#phrase{
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+a{
+    color: white;
+}
+
+button:hover > a{
+    color: black;
+    font-size: 14px;
+}
+
+a:hover{
+    color: #ffdfdf;
+    font-size: 25px;
+}
+
+button:hover{
+    color: #7e6b6b;
+}

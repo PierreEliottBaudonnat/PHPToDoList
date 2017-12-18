@@ -38,12 +38,27 @@ class FrontControleur{
                     new UtilisateurControleur($action);
                     break;
 
+                case "validAjoutPrivee" :
+                    $_SESSION['role']="admin";
+                    new UtilisateurControleur($action);
+                    break;
+
                 case "validModif" :
                     $_SESSION['role']="admin";
                     new UtilisateurControleur($action);
                     break;
 
+                case "validModifPrivee" :
+                    $_SESSION['role']="admin";
+                    new UtilisateurControleur($action);
+                    break;
+
                 case "validSuppr" :
+                    $_SESSION['role']="admin";
+                    new UtilisateurControleur($action);
+                    break;
+
+                case "validSupprPrivee" :
                     $_SESSION['role']="admin";
                     new UtilisateurControleur($action);
                     break;
@@ -58,12 +73,27 @@ class FrontControleur{
                     new UtilisateurControleur($action);
                     break;
 
+                case "ajoutTachePrivee" :
+                    $_SESSION['role']="admin";
+                    new UtilisateurControleur($action);
+                    break;
+
                 case "modifTache" :
                     $_SESSION['role'] = "admin";
                     new UtilisateurControleur($action);
                     break;
 
+                case "modifTachePrivee" :
+                    $_SESSION['role'] = "admin";
+                    new UtilisateurControleur($action);
+                    break;
+
                 case "supprTache" :
+                    $_SESSION['role']="admin";
+                    new UtilisateurControleur($action);
+                    break;
+
+                case "supprTachePrivee" :
                     $_SESSION['role']="admin";
                     new UtilisateurControleur($action);
                     break;

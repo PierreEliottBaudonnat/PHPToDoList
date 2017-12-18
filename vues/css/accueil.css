@@ -27,6 +27,13 @@ h1
     font-size: 21px;
 }
 
+#phpPrive{
+    color: #ff5b17;
+    font-family: "Bodoni MT";
+    text-align: center;
+    font-size: 21px;
+}
+
 #testPhp{
     display: inline-block;
     margin: 3.5%;

@@ -45,9 +45,10 @@ class Config
             "saisieModifTache" => $vueDirectory."vueSaisieModifTache.php",
             "saisieSupprTache" => $vueDirectory."vueSaisieSupprTache.php",
             "success" => $vueDirectory."success.php",
-            "afficheTache" => $vueDirectory."vueAfficheTache.php",
-            "afficheListeTaches" => $vueDirectory."vueAfficheListeTache.php"
-
+            "successPrivee" => $vueDirectory."successPrivee.php",
+            "saisieAjoutTachePrivee" => $vueDirectory."vueSaisieAjoutTachePrivee.php",
+            "saisieModifTachePrivee" => $vueDirectory."vueSaisieModifTachePrivee.php",
+            "saisieSupprTachePrivee" => $vueDirectory."vueSaisieSupprTachePrivee.php"
         );
     }
 

@@ -31,9 +31,19 @@ class TacheModel extends Simplemodel
         $n->afficherTache($idTache);
     }
 
+    public function getModelTachePrivee($idTache){
+        $n = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $n->afficherTachePrivee($idTache);
+    }
+
     public function getModelAjoutTache($idTache, $titreTache, $description, $duree){
         $n = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
         $n->ajouterTache($idTache, $titreTache, $description, $duree);
+    }
+
+    public function getModelAjoutTachePrivee($idTache, $titreTache, $description, $duree){
+        $n = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $n->ajouterTachePrivee($idTache, $titreTache, $description, $duree);
     }
 
     public function getModelModifTache($idTache, $titreTache, $description, $duree){
@@ -41,8 +51,18 @@ class TacheModel extends Simplemodel
         $n->modifierTache($idTache, $titreTache, $description, $duree);
     }
 
+    public function getModelModifTachePrivee($idTache, $titreTache, $description, $duree){
+        $n = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $n->modifierTachePrivee($idTache, $titreTache, $description, $duree);
+    }
+
     public function getModelSupprTache($idTache){
         $n = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
         $n->supprimerTache($idTache);
+    }
+
+    public function getModelSupprTachePrivee($idTache){
+        $n = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $n->supprimerTachePrivee($idTache);
     }
 }

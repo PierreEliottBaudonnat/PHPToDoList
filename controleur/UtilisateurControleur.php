@@ -36,24 +36,48 @@ class UtilisateurControleur
                 $this->actionAjoutTache();
                 break;
 
+            case "ajoutTachePrivee" :
+                $this->actionAjoutTachePrivee();
+                break;
+
             case "validAjout" :
                 $this->actionValiderAjout();
+                break;
+
+            case "validAjoutPrivee" :
+                $this->actionValiderAjoutPrivee();
                 break;
 
             case "modifTache" :
                 $this->actionModifTache();
                 break;
 
+            case "modifTachePrivee" :
+                $this->actionModifTachePrivee();
+                break;
+
             case "validModif" :
                 $this->actionValiderModif();
+                break;
+
+            case "validModifPrivee" :
+                $this->actionValiderModifPrivee();
                 break;
 
             case "supprTache" :
                 $this->actionSupprTache();
                 break;
 
+            case "supprTachePrivee" :
+                $this->actionSupprTachePrivee();
+                break;
+
             case "validSuppr" :
                 $this->actionValiderSuppr();
+                break;
+
+            case "validSupprPrivee" :
+                $this->actionValiderSupprPrivee();
                 break;
 
             default :
@@ -164,6 +188,58 @@ class UtilisateurControleur
             $model->getModelSupprTache($_POST['idTache']);
             require \config\Config::getVues()["success"];
         }
+    }
+
+    public function actionAjoutTachePrivee(){
+        require (\config\Config::getVues()["saisieAjoutTachePrivee"]);
+    }
+
+    public function actionValiderAjoutPrivee(){
+        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $res = $tGat->afficherTachePrivee($_POST['idTacheP']);
+        if ($res == "0"){
+            $model = new TacheModel();
+            $model->getModelAjoutTachePrivee($_POST['idTacheP'], $_POST['titreTacheP'], $_POST['descriptionP'], $_POST['dureeP']);
+            require \config\Config::getVues()["successPrivee"];
+        }
+        else{
+            require \config\Config::getVuesErreur()["default"];
+        }
+    }
+
+    public function actionModifTachePrivee(){
+        require (\config\Config::getVues()["saisieModifTachePrivee"]);
+    }
+
+    public function actionValiderModifPrivee(){
+        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $res = $tGat->afficherTachePrivee($_POST['idTacheP']);
+        if ($res == "0"){
+            require \config\Config::getVuesErreur()["default"];
+        }
+        else{
+            $model = new TacheModel();
+            $model->getModelModifTachePrivee($_POST['idTacheP'], $_POST['titreTacheP'], $_POST['descriptionP'], $_POST['dureeP']);
+            require \config\Config::getVues()["successPrivee"];
+        }
+    }
+
+    public function actionSupprTachePrivee(){
+        require (\config\Config::getVues()["saisieSupprTachePrivee"]);
+    }
+
+    public function actionValiderSupprPrivee(){
+        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $res = $tGat->afficherTachePrivee($_POST['idTacheP']);
+        if ($res == "0"){
+            require \config\Config::getVuesErreur()["default"];
+        }
+        else{
+            $model = new TacheModel();
+            $model->getModelSupprTachePrivee($_POST['idTacheP']);
+            require \config\Config::getVues()["successPrivee"];
+        }
+
     }
 
 }

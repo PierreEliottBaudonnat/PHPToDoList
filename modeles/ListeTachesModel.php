@@ -41,6 +41,21 @@ class ListeTachesModel extends Simplemodel
             echo "<br>";
         }
     }
+
+    public function getModelListeTachesPrivees(){
+        $n = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $tGat= $n->afficherListeTachesPrivee();
+        //var_dump($tGat);
+        foreach ($tGat as $row){
+            echo "<input type='checkbox'>";
+            //echo var_dump($row);
+            foreach ($row as $value){
+                echo "<p id='testPhp'> $value </p>";
+                //echo var_dump($value);
+            }
+            echo "<br>";
+        }
+    }
 }
 
 
