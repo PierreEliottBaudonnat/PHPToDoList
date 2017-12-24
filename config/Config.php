@@ -20,7 +20,7 @@ class Config
     }
     */
     public static function getAuthData($login, $mdp){
-        if ($login == "Pierre Eliott" && $mdp == "poleUSIrugby9"){
+        if ($login == "Pierre Eliott" && $mdp == "pepebaud"){
             return true;
         }
         if ($login == "Guillaume" && $mdp == "guiguichap"){
@@ -58,9 +58,7 @@ class Config
         $vueDirectory=$rootDirectory."vues/";
 
         return array(
-            "default" => $vueDirectory."erreur.php",
-            "saisieTacheCreation" => $vueDirectory."vueErreurSaisieTacheCreation.php",
-            "saisieTacheModification" => $vueDirectory."vueErreurSaisieTacheModification.php",
+            "default" => $vueDirectory."erreur.php"
         );
     }
 

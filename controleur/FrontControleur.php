@@ -97,10 +97,11 @@ class FrontControleur{
                     $_SESSION['role']="admin";
                     new UtilisateurControleur($action);
                     break;
-
+                /*
                 case "validationFormulaire":
                     $this->ValidationFormulaire($dVueEreur);
                     break;
+                */
                 default:                        //mauvaise action
                     require (\config\Config::getVues()["accueil"]);
                     break;
@@ -117,7 +118,7 @@ class FrontControleur{
         exit(0);
     }                                               //fin constructeur
 
-
+    /*
     function Reinit() {
         global $rep,$vues;                          // nécessaire pour utiliser variables globales
 
@@ -144,6 +145,7 @@ class FrontControleur{
         );
         require ($rep.$vues['vuephp1']);
     }
+    */
 
 }
 

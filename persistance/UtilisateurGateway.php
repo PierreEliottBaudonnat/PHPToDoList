@@ -33,7 +33,7 @@ class UtilisateurGateway{
     }
 
     public function modifierUser($login, $motDePasse){
-        $this->con->executeQuery("UPDATE user SET login = :login, motDePasse = :motDePasse WHERE login = :login", array(
+        $this->con->executeQuery("UPDATE user SET motDePasse = :motDePasse WHERE login = :login", array(
             ':login' => array($login, \PDO::PARAM_STR),
             'motDePasse' => array($motDePasse, \PDO::PARAM_STR)
         ));
@@ -56,12 +56,11 @@ class UtilisateurGateway{
     }
     */
     public function existe($login, $motDePasse){
-        $this->con->executeQuery("SELECT $login FROM user WHERE login = :login AND motDePasse = :motDePasse", array(
-            ':login' => array($login, \PDO::PARAM_STR),
-            ':motDePasse' => array($motDePasse, \PDO::PARAM_STR)
+        $this->con->executeQuery("SELECT COUNT (*) FROM user WHERE login = :login", array(
+            ':login' => array($login, \PDO::PARAM_STR)
         ));
         $res = $this->con->getResult();
-        if($res==null){
+        if($res==0){
             return null;
         }
         else{

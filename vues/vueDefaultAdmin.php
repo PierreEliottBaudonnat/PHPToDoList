@@ -10,7 +10,7 @@
 <div align="center" id="bloc_page">
     <div align="left">
         <button>
-            <a id="btAccueil" href="?action=default">Retour au menu</a>
+            <a id="btAccueil" href="?action=default">Déconnexion</a>
         </button>
     </div>
     <h1 id="titre2">Bienvenue <?php echo $login ?> !</h1>

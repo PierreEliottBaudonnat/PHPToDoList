@@ -12,7 +12,6 @@ use metier\User;
 
 class UserModel extends Simplemodel {
 
-    /*
     public static function seConnecter($login, $motDePasse){
         $login = \controleur\Validation::validationString($login);
         $motDePasse = \controleur\Validation::validationString($motDePasse);
@@ -41,5 +40,4 @@ class UserModel extends Simplemodel {
             return new User($login, $motDePasse);
         }
     }
-    */
 }

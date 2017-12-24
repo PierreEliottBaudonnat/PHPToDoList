@@ -17,8 +17,8 @@ use persistance\UtilisateurGateway;
 
 class UtilisateurControleur
 {
-    public $varLog;
-    public $varMdp;
+    private $varLog;
+    private $varMdp;
 
     function __construct($action)
     {
@@ -110,8 +110,8 @@ class UtilisateurControleur
             }
         }
 
-        $uGat = new UtilisateurGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
-        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $uGat = new UtilisateurGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "pepebaud"));
+        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "pepebaud"));
 
         $utilisateur = $uGat->existe($_REQUEST['login'], $_REQUEST['motDePasse']);
         */
@@ -134,7 +134,7 @@ class UtilisateurControleur
             $login = $this->varLog;
             require \config\Config::getVues()["defaultAdmin"];
         }
-        if ($test === false){
+        if ($test == false){
             require \config\Config::getVuesErreur()["default"];
         }
     }
@@ -144,7 +144,7 @@ class UtilisateurControleur
     }
 
     public function actionValiderAjout(){
-        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "pepebaud"));
         $res = $tGat->afficherTache($_POST['idTache']);
         if ($res == "0"){
             $model = new TacheModel();
@@ -161,7 +161,7 @@ class UtilisateurControleur
     }
 
     public function actionValiderModif(){
-        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "pepebaud"));
         $res = $tGat->afficherTache($_POST['idTache']);
         if ($res == "0"){
             require \config\Config::getVuesErreur()["default"];
@@ -178,7 +178,7 @@ class UtilisateurControleur
     }
 
     public function actionValiderSuppr(){
-        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "pepebaud"));
         $res = $tGat->afficherTache($_POST['idTache']);
         if ($res == "0"){
             require \config\Config::getVuesErreur()["default"];
@@ -195,7 +195,7 @@ class UtilisateurControleur
     }
 
     public function actionValiderAjoutPrivee(){
-        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "pepebaud"));
         $res = $tGat->afficherTachePrivee($_POST['idTacheP']);
         if ($res == "0"){
             $model = new TacheModel();
@@ -212,7 +212,7 @@ class UtilisateurControleur
     }
 
     public function actionValiderModifPrivee(){
-        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "pepebaud"));
         $res = $tGat->afficherTachePrivee($_POST['idTacheP']);
         if ($res == "0"){
             require \config\Config::getVuesErreur()["default"];
@@ -229,7 +229,7 @@ class UtilisateurControleur
     }
 
     public function actionValiderSupprPrivee(){
-        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $tGat = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "pepebaud"));
         $res = $tGat->afficherTachePrivee($_POST['idTacheP']);
         if ($res == "0"){
             require \config\Config::getVuesErreur()["default"];

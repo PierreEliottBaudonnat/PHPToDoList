@@ -28,7 +28,7 @@ class ListeTachesModel extends Simplemodel
     }
     */
     public function getModelListeTachesPubliques(){
-        $n = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $n = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "pepebaud"));
         $tGat= $n->afficherListeTaches();
         //var_dump($tGat);
         foreach ($tGat as $row){
@@ -43,7 +43,7 @@ class ListeTachesModel extends Simplemodel
     }
 
     public function getModelListeTachesPrivees(){
-        $n = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "poleUSIrugby9"));
+        $n = new TacheGateway(new Connexion("mysql:host=localhost;dbname=pierre eliott", "Pierre Eliott", "pepebaud"));
         $tGat= $n->afficherListeTachesPrivee();
         //var_dump($tGat);
         foreach ($tGat as $row){
