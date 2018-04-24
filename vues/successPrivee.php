@@ -3,7 +3,7 @@
     <title>ToDoList</title>
     <meta charset="UTF-8">
     <link rel="icon" href="css/images/icon.png"/>
-    <link href="http://localhost/PhpProject/vues/css/prive.css" rel="stylesheet" type="text/css" />
+    <link href="http://localhost/PHPToDoList/vues/css/prive.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>

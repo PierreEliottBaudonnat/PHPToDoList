@@ -11,105 +11,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="ListeTachesModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modeles/ListeTachesModel.php">
+      <file leaf-file-name="vueAnonyme.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/vueAnonyme.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1474">
-              <caret line="45" column="115" lean-forward="false" selection-start-line="45" selection-start-column="115" selection-end-line="45" selection-end-column="115" />
-              <folding>
-                <element signature="e#117#143#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tache.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/metier/Tache.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="200">
+              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VisiteurControleur.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controleur/VisiteurControleur.php">
+      <file leaf-file-name="vueAuthentification.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/vueAuthentification.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="951">
-              <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            <state relative-caret-position="200">
+              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UtilisateurControleur.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controleur/UtilisateurControleur.php">
+      <file leaf-file-name="vueDefaultAdmin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/vueDefaultAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="113" column="118" lean-forward="false" selection-start-line="113" selection-start-column="118" selection-end-line="113" selection-end-column="118" />
-              <folding>
-                <element signature="e#121#144#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Validation.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controleur/Validation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            <state relative-caret-position="200">
+              <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Simplemodel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modeles/Simplemodel.php">
+      <file leaf-file-name="vuephp1.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/vuephp1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="200">
+              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TacheFabrique.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/metier/TacheFabrique.php">
+      <file leaf-file-name="vueSaisieAjoutTache.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/vueSaisieAjoutTache.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="200">
+              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/metier/User.php">
+      <file leaf-file-name="vueSaisieAjoutTachePrivee.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/vueSaisieAjoutTachePrivee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="200">
+              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrontControleur.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controleur/FrontControleur.php">
+      <file leaf-file-name="vueSaisieModifTache.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/vueSaisieModifTache.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="103" column="18" lean-forward="false" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+            <state relative-caret-position="200">
+              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TachePrivee.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/metier/TachePrivee.php">
+      <file leaf-file-name="VueSaisieModifTachePrivee.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/VueSaisieModifTachePrivee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
-              <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+            <state relative-caret-position="200">
+              <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vueSaisieSupprTache.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/vueSaisieSupprTache.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vueSaisieSupprTachePrivee.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vues/vueSaisieSupprTachePrivee.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -139,6 +135,9 @@
       <find>cho</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -157,40 +156,41 @@
         <option value="$PROJECT_DIR$/auth/AuthUtils.php" />
         <option value="$PROJECT_DIR$/vues/vueAfficheListeTache.php" />
         <option value="$PROJECT_DIR$/vues/test.php" />
-        <option value="$PROJECT_DIR$/vues/vuephp1.php" />
         <option value="$PROJECT_DIR$/vues/css/images/auth.css" />
-        <option value="$PROJECT_DIR$/vues/vueAuthentification.php" />
         <option value="$PROJECT_DIR$/controleur/Validation.php" />
         <option value="$PROJECT_DIR$/metier/User.php" />
         <option value="$PROJECT_DIR$/modeles/Simplemodel.php" />
         <option value="$PROJECT_DIR$/controleur/VisiteurControleur.php" />
-        <option value="$PROJECT_DIR$/vues/vueAnonyme.php" />
         <option value="$PROJECT_DIR$/persistance/Connexion.php" />
         <option value="$PROJECT_DIR$/controleur/UtlisateurControleur.php" />
         <option value="$PROJECT_DIR$/vues/css/images/modif.css" />
         <option value="$PROJECT_DIR$/vues/css/auth.css" />
-        <option value="$PROJECT_DIR$/vues/vueSaisieAjoutTache.php" />
-        <option value="$PROJECT_DIR$/vues/vueSaisieModifTache.php" />
-        <option value="$PROJECT_DIR$/vues/vueSaisieSupprTache.php" />
-        <option value="$PROJECT_DIR$/vues/success.php" />
         <option value="$PROJECT_DIR$/vues/css/modif.css" />
-        <option value="$PROJECT_DIR$/vues/vueSaisieAjoutTachePrivee.php" />
         <option value="$PROJECT_DIR$/vues/sucessPrivee.php" />
         <option value="$PROJECT_DIR$/metier/TachePrivee.php" />
         <option value="$PROJECT_DIR$/persistance/TacheGateway.php" />
-        <option value="$PROJECT_DIR$/vues/VueSaisieModifTachePrivee.php" />
-        <option value="$PROJECT_DIR$/vues/vueSaisieSupprTachePrivee.php" />
         <option value="$PROJECT_DIR$/vues/css/prive.css" />
         <option value="$PROJECT_DIR$/persistance/UtilisateurGateway.php" />
         <option value="$PROJECT_DIR$/vues/css/accueil.css" />
         <option value="$PROJECT_DIR$/modeles/UserModel.php" />
         <option value="$PROJECT_DIR$/metier/Tache.php" />
-        <option value="$PROJECT_DIR$/vues/vueDefaultAdmin.php" />
         <option value="$PROJECT_DIR$/controleur/FrontControleur.php" />
         <option value="$PROJECT_DIR$/config/Config.php" />
         <option value="$PROJECT_DIR$/modeles/ListeTachesModel.php" />
         <option value="$PROJECT_DIR$/modeles/TacheModel.php" />
         <option value="$PROJECT_DIR$/controleur/UtilisateurControleur.php" />
+        <option value="$PROJECT_DIR$/vues/success.php" />
+        <option value="$PROJECT_DIR$/vues/successPrivee.php" />
+        <option value="$PROJECT_DIR$/vues/vueAnonyme.php" />
+        <option value="$PROJECT_DIR$/vues/vueAuthentification.php" />
+        <option value="$PROJECT_DIR$/vues/vueDefaultAdmin.php" />
+        <option value="$PROJECT_DIR$/vues/vuephp1.php" />
+        <option value="$PROJECT_DIR$/vues/vueSaisieAjoutTache.php" />
+        <option value="$PROJECT_DIR$/vues/vueSaisieAjoutTachePrivee.php" />
+        <option value="$PROJECT_DIR$/vues/vueSaisieModifTache.php" />
+        <option value="$PROJECT_DIR$/vues/VueSaisieModifTachePrivee.php" />
+        <option value="$PROJECT_DIR$/vues/vueSaisieSupprTache.php" />
+        <option value="$PROJECT_DIR$/vues/vueSaisieSupprTachePrivee.php" />
       </list>
     </option>
   </component>
@@ -248,53 +248,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="PhpProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhpProject" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PHPToDoList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPToDoList" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="PhpProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhpProject" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PhpProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhpProject" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controleur" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PhpProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhpProject" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="metier" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PhpProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhpProject" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modeles" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PhpProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhpProject" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="persistance" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PhpProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhpProject" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PHPToDoList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPToDoList" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="vues" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjetLecteur" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -340,11 +315,12 @@
       <workItem from="1512828357082" duration="43720000" />
       <workItem from="1513340900527" duration="109451000" />
       <workItem from="1514055434605" duration="677000" />
+      <workItem from="1524572801757" duration="133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213418000" />
+    <option name="totallyTimeSpent" value="213551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
@@ -354,12 +330,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -380,14 +356,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/php/public_html/files/mvc2_autoloadsimple/config/Validation.php" />
     <entry file="file://$PROJECT_DIR$/auth/Validation.php" />
     <entry file="file://$PROJECT_DIR$/auth/AuthUtils.php" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/PDO/PDO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16829">
           <caret line="740" column="20" lean-forward="false" selection-start-line="740" selection-start-column="20" selection-end-line="740" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -401,14 +375,6 @@
     <entry file="file://E:/corr 2e/site dev appli/amelioration.css" />
     <entry file="file://E:/corr 2e/site dev appli/amelioration.html" />
     <entry file="file://$PROJECT_DIR$/vues/css/images/auth.css" />
-    <entry file="file://$PROJECT_DIR$/vues/vueAnonyme.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controleur/UtlisateurControleur.php" />
     <entry file="file://$PROJECT_DIR$/vues/css/images/modif.css" />
     <entry file="file://$PROJECT_DIR$/vues/css/auth.css">
@@ -418,83 +384,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vues/vueAuthentification.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/vueSaisieAjoutTache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="12" column="67" lean-forward="true" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vues/sucessPrivee.php" />
-    <entry file="file://$PROJECT_DIR$/vues/vueSaisieModifTache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/vueSaisieAjoutTachePrivee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/success.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/successPrivee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vues/css/modif.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1023">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="87" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/VueSaisieModifTachePrivee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/vueSaisieSupprTache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/vueSaisieSupprTachePrivee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="14" column="115" lean-forward="false" selection-start-line="14" selection-start-column="115" selection-end-line="14" selection-end-column="115" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,39 +406,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/Autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1111">
           <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/vuephp1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/vueDefaultAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="983">
-          <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-          <folding>
-            <marker date="1513688611556" expanded="true" signature="311:330" ph="..." />
-            <marker date="1513688611556" expanded="true" signature="545:570" ph="..." />
-            <marker date="1513688611556" expanded="true" signature="878:894" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -560,13 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2280">
           <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-          <folding>
-            <marker date="1513678613841" expanded="true" signature="362:406" ph="INSERT INTO user... " />
-            <marker date="1513678613841" expanded="true" signature="640:677" ph="DELETE FROM " />
-            <marker date="1513678613841" expanded="true" signature="850:911" ph="UPDATE user " />
-            <marker date="1513678613841" expanded="true" signature="1261:1334" ph="SELECT ${$lo... user" />
-            <marker date="1513678613841" expanded="true" signature="1756:1803" ph="SELECT ${$lo... user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,21 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-897">
           <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
-          <folding>
-            <element signature="e#121#138#0#PHP" expanded="true" />
-            <marker date="1513635373524" expanded="true" signature="398:467" ph="INSERT INTO Tache... " />
-            <marker date="1513635373524" expanded="true" signature="409:422" ph="insert into Tache... " />
-            <marker date="1513635373524" expanded="true" signature="864:939" ph="INSERT INTO tacheprivee... " />
-            <marker date="1513635373524" expanded="true" signature="1297:1339" ph="DELETE FROM " />
-            <marker date="1513635373524" expanded="true" signature="1513:1562" ph="DELETE FROM " />
-            <marker date="1513635373524" expanded="true" signature="1764:1801" ph="UPDATE Tache... " />
-            <marker date="1513635373524" expanded="true" signature="1764:1874" ph="UPDATE Tache... " />
-            <marker date="1513635373524" expanded="true" signature="2272:2392" ph="UPDATE tache... " />
-            <marker date="1513635373524" expanded="true" signature="2749:2800" ph="SELECT COUNT... tache" />
-            <marker date="1513635373524" expanded="true" signature="3137:3195" ph="SELECT COUNT... tacheprivee" />
-            <marker date="1513635373524" expanded="true" signature="3524:3543" ph="SELECT * FRO... tache" />
-            <marker date="1513635373524" expanded="true" signature="3869:3894" ph="SELECT * FRO... tacheprivee" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -596,7 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,7 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
           <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,9 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1771">
           <caret line="64" column="115" lean-forward="false" selection-start-line="64" selection-start-column="115" selection-end-line="64" selection-end-column="115" />
-          <folding>
-            <element signature="e#118#144#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -628,7 +467,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modeles/ListeTachesModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
+        <state relative-caret-position="1520">
           <caret line="45" column="115" lean-forward="false" selection-start-line="45" selection-start-column="115" selection-end-line="45" selection-end-column="115" />
           <folding>
             <element signature="e#117#143#0#PHP" expanded="true" />
@@ -639,7 +478,7 @@
     <entry file="file://$PROJECT_DIR$/metier/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -655,7 +494,7 @@
     <entry file="file://$PROJECT_DIR$/metier/TacheFabrique.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -670,8 +509,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controleur/VisiteurControleur.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="951">
-          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        <state relative-caret-position="1040">
+          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -686,7 +525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controleur/UtilisateurControleur.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
+        <state relative-caret-position="4160">
           <caret line="113" column="118" lean-forward="false" selection-start-line="113" selection-start-column="118" selection-end-line="113" selection-end-column="118" />
           <folding>
             <element signature="e#121#144#0#PHP" expanded="true" />
@@ -698,6 +537,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="103" column="18" lean-forward="false" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/erreur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/success.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/successPrivee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/vueAnonyme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/vueAuthentification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/vueDefaultAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/vuephp1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/vueSaisieAjoutTache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/vueSaisieAjoutTachePrivee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/vueSaisieModifTache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/VueSaisieModifTachePrivee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/vueSaisieSupprTache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/vueSaisieSupprTachePrivee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding />
         </state>
       </provider>
