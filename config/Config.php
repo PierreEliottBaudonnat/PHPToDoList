@@ -16,7 +16,7 @@ class Config
 
         $db_host="mysql:host=localhost;dbname=pierre eliott";
         $db_user="Pierre Eliott";
-        $db_password="poleUSIrugby9";
+        $db_password="pepebaud";
     }
     */
     public static function getAuthData($login, $mdp){
